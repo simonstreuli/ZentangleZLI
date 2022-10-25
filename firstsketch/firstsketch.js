@@ -5,14 +5,16 @@ let circlex = 0;
 let circley = 0;
 let radius = 75;
 let cabstand = 100;
-
+let stroker = 0;
+let srokeg = 255;
+let srokeb = 255;
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
 background(255);
 }
 function draw() {
-  stroke(0, 255, 255);
+  stroke(stroker, strokeg, strokeb);
 
   
   if (random(1.1) < 0.5){ 
